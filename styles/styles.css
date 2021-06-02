@@ -26,13 +26,7 @@ div.menu {
   align-self:center;
 }
 
-.bkgimage{
-  background-position: center;
-  background-position-y: 10%;
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-image: url("/images/downtown-milwaukee-1068x601.jpg");
-}
+
 
 p{
   font-family: 'Noto Sans JP', sans-serif;
@@ -41,12 +35,21 @@ p{
 }
 
 
-
 .myavatar {
   display: block;
+  padding-top: 7%;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  height: 300px;
+  width: auto;
+  
+}
+.header{
+background-image: url("/images/downtown-milwaukee-1068x601.jpg");
+background-repeat:no-repeat;
+display: block;
+background-size:cover;
+height: 800px;
 }
 .pictureandbkg{
   margin-left: auto;
@@ -54,6 +57,7 @@ p{
   max-height: 100%;
   max-width: 100%;
 }
+
 .mypicsubtext{
   
   text-align: center;
@@ -79,8 +83,13 @@ h2, h3 {
   width: 100%;
 }
 
-.aboutme, .myprojects, .contactme{
+#aboutme, #myprojects, #contactme{
   align-content: center;
   margin-right: auto;
   margin-left: auto;
+}
+#portfoliopic1{
+  width: 200px;
+  height: 200px;
+  padding: 40px;
 }

@@ -99,6 +99,6 @@ h2, h3 {
 .projects {
   display: inline-flex;
 }
-figcaption {
+figcaption, footer {
   font-family: 'Noto Sans JP', sans-serif;
 }

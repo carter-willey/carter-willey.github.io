@@ -1,3 +1,7 @@
+body{
+  background-color: #DADDD8;
+}
+
 div.menu {
   margin: 0px;
 }
@@ -63,7 +67,7 @@ height: 800px;
 .mypicsubtext{
   
   text-align: center;
-  background-color: white;
+  background-color: #DADDD8;
   width: 190px;
 }
 h2, h3 {
@@ -82,7 +86,7 @@ h2, h3 {
 }
 
 .main {
-  background-color: white;
+  background-color: DADDD8;
   width: 100%;
 }
 
